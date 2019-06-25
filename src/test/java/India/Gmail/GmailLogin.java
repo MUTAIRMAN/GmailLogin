@@ -16,6 +16,8 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebDriver.TargetLocator;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.interactions.Actions;
+import org.openqa.selenium.support.ui.ExpectedConditions;
+import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.annotations.Test;
 
 import Repository.Login_Repo;
@@ -83,7 +85,10 @@ public class GmailLogin {
 				test.lblWork.click();
 				test.apply.click();
 				test.send.click();
-				Thread.sleep(5000);
+				WebDriverWait driver_wait=new WebDriverWait(driver,2000);
+				driver_wait.until(ExpectedConditions.elementToBeClickable(test.success));
+				
+				
 				
 				break;
 			}

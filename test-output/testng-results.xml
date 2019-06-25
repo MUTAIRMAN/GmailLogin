@@ -2,16 +2,16 @@
 <testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="9005" started-at="2019-06-17T03:02:56Z" finished-at="2019-06-17T03:03:05Z">
+  <suite name="Default suite" duration-ms="47376" started-at="2019-06-25T02:10:46Z" finished-at="2019-06-25T02:11:33Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="9005" started-at="2019-06-17T03:02:56Z" finished-at="2019-06-17T03:03:05Z">
-      <class name="India.Gmail.NewTest">
-        <test-method status="PASS" signature="f()[pri:0, instance:India.Gmail.NewTest@5e3a8624]" name="f" duration-ms="8958" started-at="2019-06-17T03:02:56Z" finished-at="2019-06-17T03:03:05Z">
+    <test name="Default test" duration-ms="47376" started-at="2019-06-25T02:10:46Z" finished-at="2019-06-25T02:11:33Z">
+      <class name="India.Gmail.GmailLogin">
+        <test-method status="PASS" signature="f()[pri:0, instance:India.Gmail.GmailLogin@5e3a8624]" name="f" duration-ms="47329" started-at="2019-06-25T02:10:46Z" finished-at="2019-06-25T02:11:33Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- f -->
-      </class> <!-- India.Gmail.NewTest -->
+      </class> <!-- India.Gmail.GmailLogin -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

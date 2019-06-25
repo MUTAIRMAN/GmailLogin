@@ -42,6 +42,9 @@ public class NewEmail_Repo {
 	@FindBy (xpath="//div[@class='dC']/div[contains(text(),'Send')]")
 	public WebElement send;
 	
+	@FindBy (xpath="//span[@class='bAq']")
+	public WebElement success;
+	
 	public NewEmail_Repo(WebDriver driver)
 	{
 		this.driver=driver;
